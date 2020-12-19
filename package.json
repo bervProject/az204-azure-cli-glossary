@@ -1,0 +1,18 @@
+{
+  "name": "az204-azure-cli-glossary",
+  "version": "1.0.0",
+  "description": "AZ-204 Preparation - Compile Azure CLI that will be usefull",
+  "main": "index.js",
+  "repository": "https://github.com/berviantoleo/az204-azure-cli-glossary.git",
+  "author": "Bervianto Leo Pratama <bervianto.leo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.7.1",
+    "@vuepress/plugin-back-to-top": "^1.7.1",
+    "vuepress": "^1.7.1"
+  }
+}
