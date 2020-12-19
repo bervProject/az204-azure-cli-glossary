@@ -10,5 +10,6 @@ module.exports = {
       { text: 'Web App', link: '/webapp/' },
       { text: 'Github', link: 'https://github.com/berviantoleo/az204-azure-cli-glossary' }
     ]
-  }
+  },
+  base: process.env.BASE_URL || "/",
 }
