@@ -13,12 +13,35 @@ Preparation for AZ-204, collection of usefull command to have more knowledge and
 
 ## Common
 
+### Common Command
+
 Please follow this [link](/common/)
 
-## Resource Group
+### Resource Group
 
 Please follow this [link](/resourcegroup/)
 
-## Web App
+## Compute Solution
+### Function
+
+Please follow this [link](/function/)
+
+### Web App
 
 Please follow this [link](/webapp/)
+
+## Event/Message
+
+### Azure Event Hub
+
+Please follow this [link](/eventhub/)
+
+## Storage Solution
+
+### Cosmos DB
+
+Please follow this [link](/cosmos/)
+
+### Storage Account
+
+Please follow this [link](/storageaccount/)
