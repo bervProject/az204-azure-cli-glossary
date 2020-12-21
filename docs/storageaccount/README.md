@@ -19,6 +19,21 @@ az storage account create \
 ::: tip
 More information click [here](https://docs.microsoft.com/en-us/cli/azure/storage/account?view=azure-cli-latest#az_storage_account_create)
 :::
+## Get Key List
+
+```bash
+az storage account keys list \
+  --account-name <storage name> \
+  --resource-group <resource group name>
+```
+
+## Get Connection String by Name
+
+```bash
+az storage account show-connection-string \
+  --name <storage name> \
+  --resource-group <resource group name>
+```
 
 ## Get First Storage Account Connection String
 
@@ -29,4 +44,12 @@ STORAGE_CONNECTION_STRING=$(az storage account show-connection-string \
     --query [0].name -o tsv) \
   --resource-group <resource group name> \
   --query "connectionString" -o tsv)
+```
+
+## Queue Storage
+
+### Delete Storage Queue
+
+```bash
+az storage queue delete --name <storage name> --connection-string <connection-string>
 ```

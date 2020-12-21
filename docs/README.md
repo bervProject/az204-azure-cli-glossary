@@ -26,6 +26,10 @@ Please follow this [link](/resourcegroup/)
 
 Please follow this [link](/function/)
 
+### Virtual Machine
+
+Please follow this [link](/vm/)
+
 ### Web App
 
 Please follow this [link](/webapp/)
