@@ -5,6 +5,18 @@ footer: MIT Licensed and CC BY 4.0 | Copyright © 2020-present Bervianto Leo Pra
 
 # Web App
 
+## App Service Plan
+
+### Create App Service Plan
+
+```bash
+az appservice plan create \
+  --name <app service plan name> \
+  --resource-group <resource group name> \
+  --location <location> \
+  --sku FREE
+```
+
 ## Web App List
 
 ### List All Web App from a Resource Group
@@ -24,8 +36,24 @@ This search query not limited starts_with only
 :::
 
 
+## Deployment
+
+## Deployment from URL
+
+```bash
+az webapp deployment source config \
+  --name <web app name> \
+  --resource-group <resource group> \
+  --repo-url <url> \
+  --branch <branch name> \
+  --manual-integration
+```
+
 ### Deploy from .zip
 
 ```bash
-az webapp deployment source config-zip --resource-group <resource-group-name> --src <api location> --name <name-of-your-api-app>
+az webapp deployment source config-zip \
+  --resource-group <resource-group-name> \
+  --src <api location> \
+  --name <name-of-your-api-app>
 ```
