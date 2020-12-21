@@ -17,6 +17,15 @@ az appservice plan create \
   --sku FREE
 ```
 
+## Setup App Settings
+
+```bash
+az webapp config appsettings set \
+  --name <your-unique-app-name> \
+  --resource-group <resource group name> \
+  --settings '<key>=<value>' '<key>=<value>'
+```
+
 ## Web App List
 
 ### List All Web App from a Resource Group

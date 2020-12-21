@@ -46,6 +46,18 @@ STORAGE_CONNECTION_STRING=$(az storage account show-connection-string \
   --query "connectionString" -o tsv)
 ```
 
+## Blob Storage
+
+### Blob List (name only)
+
+```bash
+az storage blob list \
+  --account-name <storage name> \
+  --container-name <container name> \
+  --query '[].{Name:name}' \
+  --output table
+```
+
 ## Queue Storage
 
 ### Delete Storage Queue
