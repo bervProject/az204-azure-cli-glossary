@@ -24,6 +24,11 @@ module.exports = {
         ]
       },
       {
+        text: 'Security', ariaLabel: 'Security', items: [
+          { text: 'Key Vault', link: '/keyvault/' }
+        ]
+      },
+      {
         text: 'Storages', ariaLabel: 'Azure Storage Solutions', items: [
           { text: 'Cosmos DB', link: '/cosmos/' },
           { text: 'Storage Account', link: '/storageaccount/' }

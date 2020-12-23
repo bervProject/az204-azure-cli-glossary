@@ -40,6 +40,12 @@ Please follow this [link](/webapp/)
 
 Please follow this [link](/eventhub/)
 
+## Security
+
+### Key Vault
+
+Please follow this [link](/keyvault/)
+
 ## Storage Solution
 
 ### Cosmos DB
