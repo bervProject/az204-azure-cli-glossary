@@ -26,6 +26,10 @@ Please follow this [link](/resourcegroup/)
 
 Please follow this [link](/function/)
 
+### Logic Apps
+
+Please follow this [link](/logicapps/)
+
 ### Virtual Machine
 
 Please follow this [link](/vm/)
