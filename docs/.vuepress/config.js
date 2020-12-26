@@ -14,7 +14,7 @@ module.exports = {
       {
         text: 'Computes', ariaLabel: 'Azure Compute Solutions', items: [
           { text: 'Function', link: '/function/' },
-          { text: 'Logic Apps', link: '/logicapps/' }
+          { text: 'Logic Apps', link: '/logicapps/' },
           { text: 'Virtual Machine', link: '/vm/' },
           { text: 'Web App', link: '/webapp/' },
         ]
