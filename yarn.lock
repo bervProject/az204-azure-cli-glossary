@@ -1252,12 +1252,20 @@
     markdown-it-table-of-contents "^0.4.0"
     prismjs "^1.13.0"
 
-"@vuepress/plugin-active-header-links@1.9.7", "@vuepress/plugin-active-header-links@^1.9.7":
+"@vuepress/plugin-active-header-links@1.9.7":
   version "1.9.7"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-active-header-links/-/plugin-active-header-links-1.9.7.tgz#11b3b148d50ebd0a9a9d9e97aa34d81ae04e7307"
   integrity sha512-G1M8zuV9Og3z8WBiKkWrofG44NEXsHttc1MYreDXfeWh/NLjr9q1GPCEXtiCjrjnHZHB3cSQTKnTqAHDq35PGA==
   dependencies:
     "@vuepress/types" "1.9.7"
+    lodash.debounce "^4.0.8"
+
+"@vuepress/plugin-active-header-links@^1.9.8":
+  version "1.9.8"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-active-header-links/-/plugin-active-header-links-1.9.8.tgz#64a9b9018e7f8138a8b49119002e3421c24c23ec"
+  integrity sha512-yyUwn/DOF5Gbxc5fFbiBNqz7XmRAVHyYZNTgsJooQX+E11DH9XCuJ0sWN3HHee1aVwmz2w94KYsoueiBTgfJ8g==
+  dependencies:
+    "@vuepress/types" "1.9.8"
     lodash.debounce "^4.0.8"
 
 "@vuepress/plugin-back-to-top@^1.9.7":
@@ -1349,6 +1357,15 @@
   version "1.9.7"
   resolved "https://registry.yarnpkg.com/@vuepress/types/-/types-1.9.7.tgz#aeb772fd0f7c2a10c6ec1d3c803a2e4b1d756c24"
   integrity sha512-moLQzkX3ED2o18dimLemUm7UVDKxhcrJmGt5C0Ng3xxrLPaQu7UqbROtEKB3YnMRt4P/CA91J+Ck+b9LmGabog==
+  dependencies:
+    "@types/markdown-it" "^10.0.0"
+    "@types/webpack-dev-server" "^3"
+    webpack-chain "^6.0.0"
+
+"@vuepress/types@1.9.8":
+  version "1.9.8"
+  resolved "https://registry.yarnpkg.com/@vuepress/types/-/types-1.9.8.tgz#bf22bae02e265bc1f7b016495a236fa3ba97fa5c"
+  integrity sha512-ygRFqILi4SQjExxvpVUFXB/h76dN+k8GrDWYhAgmox1zhWEEzsskbqewXGKWE48RW9EJDYGgh8jy+CWvm7ILXg==
   dependencies:
     "@types/markdown-it" "^10.0.0"
     "@types/webpack-dev-server" "^3"
