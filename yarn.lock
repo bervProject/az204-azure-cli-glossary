@@ -1252,20 +1252,12 @@
     markdown-it-table-of-contents "^0.4.0"
     prismjs "^1.13.0"
 
-"@vuepress/plugin-active-header-links@1.9.9":
+"@vuepress/plugin-active-header-links@1.9.9", "@vuepress/plugin-active-header-links@^1.9.9":
   version "1.9.9"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-active-header-links/-/plugin-active-header-links-1.9.9.tgz#fad96c550bea0b204fe16266cff1405e8636c1e1"
   integrity sha512-lTnIhbuALjOjFts33jJD8r4ScNBxnZ6MtmePKEwvYlC3J9uvngs1Htpb1JzLEX9QCydt+bhLmZ92bTXn/PdTpg==
   dependencies:
     "@vuepress/types" "1.9.9"
-    lodash.debounce "^4.0.8"
-
-"@vuepress/plugin-active-header-links@^1.9.8":
-  version "1.9.8"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-active-header-links/-/plugin-active-header-links-1.9.8.tgz#64a9b9018e7f8138a8b49119002e3421c24c23ec"
-  integrity sha512-yyUwn/DOF5Gbxc5fFbiBNqz7XmRAVHyYZNTgsJooQX+E11DH9XCuJ0sWN3HHee1aVwmz2w94KYsoueiBTgfJ8g==
-  dependencies:
-    "@vuepress/types" "1.9.8"
     lodash.debounce "^4.0.8"
 
 "@vuepress/plugin-back-to-top@^1.9.9":
@@ -1352,15 +1344,6 @@
     stylus-loader "^3.0.2"
     vuepress-plugin-container "^2.0.2"
     vuepress-plugin-smooth-scroll "^0.0.3"
-
-"@vuepress/types@1.9.8":
-  version "1.9.8"
-  resolved "https://registry.yarnpkg.com/@vuepress/types/-/types-1.9.8.tgz#bf22bae02e265bc1f7b016495a236fa3ba97fa5c"
-  integrity sha512-ygRFqILi4SQjExxvpVUFXB/h76dN+k8GrDWYhAgmox1zhWEEzsskbqewXGKWE48RW9EJDYGgh8jy+CWvm7ILXg==
-  dependencies:
-    "@types/markdown-it" "^10.0.0"
-    "@types/webpack-dev-server" "^3"
-    webpack-chain "^6.0.0"
 
 "@vuepress/types@1.9.9":
   version "1.9.9"
