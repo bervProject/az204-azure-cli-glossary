@@ -2,7 +2,7 @@
 
 ![Node.js CI](https://github.com/berviantoleo/az204-azure-cli-glossary/workflows/Node.js%20CI/badge.svg)
 
-Generated docs use Vuepress!
+Generated docs use Vitepress!
 
 Visit [here](http://www.berviantoleo.my.id/az204-azure-cli-glossary/)
 
