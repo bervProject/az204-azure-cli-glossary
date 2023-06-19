@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "AZ-204 Azure CLI Glossary",
   description: "AZ-204 Azure CLI Glossary",
+  base: "/az204-azure-cli-glossary/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
